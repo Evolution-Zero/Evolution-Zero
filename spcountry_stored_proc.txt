@@ -1,0 +1,32 @@
+SELECT * from country
+
+create procedure getop5rating()
+AS
+BEGIN
+	SELECT TOP 5
+	CUSTOMER_RATING, State, customer_name
+	FROM 
+		CUSTOMER_RATING
+	ORDER BY CUSTOMER_RATING DESC
+	END
+execute getop5rating
+
+CREATE PROCEDURE [dbo].[spcountry]
+
+AS SELECT state, customer_name
+FROM country
+ORDER BY getop5rating DESC
+
+execute getop5rating; 
+
+CREATE FUNCTION fullname (@firstName VARCHAR(50), @lastname VARCHAR(50)) 
+	RETURNS VARCHAR(200)
+CREATE FUNCTION username (@username VARCHAR(15), @username VARCHAR(15))
+	AS 
+		BEGIN
+			RETURN 
+CREATE FUNCTION username (@username VARCHAR(15), @username VARCHAR(15))
+	AS
+		BEGIN
+			RETURN
+
