@@ -14,13 +14,13 @@ phone = input('Phone: ')
 customer_number = input('Customer number: ')
 mail = input('Include in mailing list? (y/n): ')
 
-# Determine True or False for Mailing List
+# Determine Whether Person is on Mailing List
 if mail.lower() == 'y':
     mailing_list = True
 else:
     mailing_list = False
 
-# Must set a person class instance
+# Defing Person class instance
 class Person:
     # I have to initialize the object
     def __init__ (self, name, address, phone):
@@ -48,7 +48,6 @@ class Person:
     def get_address(self):
         return self.__phone
     
-
     # Customer Class
     class Customer:
         # Initializing the object class
@@ -60,7 +59,6 @@ class Person:
             self.__customer_number = customer_number
             self.__mailing_list = mailing_list
     
-
     # Setting mutator for __customer_number
     def set_customer_number(self, customer_number):
         self.__customer_number = customer_number
