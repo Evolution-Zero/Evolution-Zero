@@ -1,4 +1,4 @@
-### Hi there 👋 welcome to my GitHub. I am a cybersecurity student seeking to expand my experience within all areas of data analytics & programming, including their relationship with information security & business analysis. The projects on this page are intended to give you a brief overview of my experience with SQL and Python.
+### Hi there 👋 welcome to my GitHub. I am a cybersecurity student seeking to expand my experience within all areas of data analytics & programming, including their relationship with information security & business intelligence. The projects on this page are intended to give you a brief overview of my experience with SQL and Python.
 <!--
 - 🔭 I’m currently working on an inventory management database for an e-commerce website and my first compiler.
 - 🌱 I’m currently learning about embedded system's communication. I am also learning C++.
